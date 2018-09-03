@@ -1,1 +1,2 @@
-# platformer
+# platformer [![Build Status](https://travis-ci.org/lilykuong/platformer.svg?branch=master)](https://travis-ci.org/lilykuong/platformer) [![Go Report Card](https://goreportcard.com/badge/github.com/lilykuong/platformer)](https://goreportcard.com/report/github.com/lilykuong/platformer)
+ Just messing around with Go-Lang
