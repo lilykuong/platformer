@@ -1,7 +1,21 @@
 language: go
+addons:
+  apt:
+    packages:
+    - xorg-dev
+    - libx11-dev
+    - libxrandr-dev
+    - libxinerama-dev
+    - libxcursor-dev
+    - libxi-dev
+    - libopenal-dev
+    - libasound2-dev
 
 go:
   - "1.x"
   - "1.8"
   - "1.10.x"
   - master
+
+install:
+- go get -t ./...
